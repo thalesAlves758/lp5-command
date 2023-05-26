@@ -15,4 +15,12 @@ public class Inventory {
     public void removeItem(Item item) {
         items.remove(item);
     }
+
+    public void setItems(List<Item> items) {
+        this.items = items;
+    }
+
+    public List<Item> getItems() {
+        return items;
+    }
 }

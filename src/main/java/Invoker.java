@@ -23,4 +23,8 @@ public class Invoker {
         command.undo();
         executedCommands.remove(command);
     }
+
+    public List<Command> getExecutedCommands() {
+        return executedCommands;
+    }
 }
